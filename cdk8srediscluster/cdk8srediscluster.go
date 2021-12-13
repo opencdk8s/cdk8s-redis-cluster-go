@@ -56971,7 +56971,7 @@ func (r *jsiiProxy_Redis) ToString() *string {
 
 // Experimental.
 type RedisOptions struct {
-	// The redis password Has to be plaintext, a way you can securely get a password is by using AWS Secrets Manager.
+	// The redis password Has to be base64 encoded, a way you can securely get a password is by using AWS Secrets Manager.
 	// Experimental.
 	RedisPassword *string `json:"redisPassword"`
 	// The size of volume to use.
