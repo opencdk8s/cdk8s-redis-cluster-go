@@ -56977,9 +56977,15 @@ type RedisOptions struct {
 	// The size of volume to use.
 	// Experimental.
 	VolumeSize *string `json:"volumeSize"`
+	// Announce IPS to Redis.
+	// Experimental.
+	AnnounceIps *[]*string `json:"announceIps"`
 	// Enable AOF.
 	// Experimental.
 	EnableAof *string `json:"enableAof"`
+	// Enable Kuma Service Mesh Dataplane injection.
+	// Experimental.
+	KumaMesh *bool `json:"kumaMesh"`
 	// The namespace to deploy the sts to.
 	// Experimental.
 	Namespace *string `json:"namespace"`
