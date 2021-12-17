@@ -56986,6 +56986,9 @@ type RedisOptions struct {
 	// Enable Kuma Service Mesh Dataplane injection.
 	// Experimental.
 	KumaMesh *bool `json:"kumaMesh"`
+	// The Kuma Mesh name.
+	// Experimental.
+	KumaMeshName *string `json:"kumaMeshName"`
 	// The namespace to deploy the sts to.
 	// Experimental.
 	Namespace *string `json:"namespace"`
