@@ -56977,6 +56977,9 @@ type RedisOptions struct {
 	// The size of volume to use.
 	// Experimental.
 	VolumeSize *string `json:"volumeSize"`
+	// Annouce replica ip.
+	// Experimental.
+	AnnouceReplicaIp *bool `json:"annouceReplicaIp"`
 	// Announce IPS to Redis.
 	// Experimental.
 	AnnounceIps *[]*string `json:"announceIps"`
